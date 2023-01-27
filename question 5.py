@@ -1,0 +1,5 @@
+s1=input("Enter the hyphen-separated sequence of words\n")      
+l1=s1.split('-')                                         
+l1=sorted(l1)                                             
+s1='-'.join(l1)                                   
+print(s1)                 
